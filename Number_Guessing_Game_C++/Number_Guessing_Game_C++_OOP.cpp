@@ -135,7 +135,7 @@ class NumberGuessingGame
                                 {
                                     std::cout << "------------------------" << std::endl;
                                     // hints if needs to be higher or lower (ternary)
-                                    (this->inputGuessNumber > randomNumber) ? std::cout << "\tLower!!_pls!\n" : std::cout << "Higher!!_pls.\n";
+                                    (this->inputGuessNumber > this->randomNumber) ? std::cout << "\tLower!!_pls!\n" : std::cout << "Higher!!_pls.\n";
                                     std::cout << "------------------------" << std::endl;
                                     // reduce the available try(s)
                                     this->numberOfTries--;
@@ -164,7 +164,7 @@ class NumberGuessingGame
                                 last ask the player to play again
                         ***********************************************************************/
                         std::cout << "############################################################" << std::endl;
-                        std::cout << "\tBetter luck next time, the correct number is: \'" << randomNumber << "\'" << std::endl;
+                        std::cout << "\tBetter luck next time, the correct number is: \'" << this->randomNumber << "\'" << std::endl;
                         std::cout << "############################################################\n" << std::endl;
                         this->numberOfLose++;           
                     }
