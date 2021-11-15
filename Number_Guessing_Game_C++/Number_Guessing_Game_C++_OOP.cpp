@@ -1,7 +1,10 @@
 /***************************
-  Number Guessing Game OOP
-  November 14, 2021
-  @Rokhai
+    Number Guessing Game OOP
+    November 14, 2021
+
+    Rosgen D. Hizer  
+
+    @Rokhai
 ****************************/
 
 #include <iostream>
@@ -24,11 +27,23 @@ class NumberGuessingGame
         int maxRangeNumber = 100;
 
     public:
-        NumberGuessingGame(string name)
+        NumberGuessingGame()
         {
-            this->name = name;
+             // prompts player name
+            inputName:
+                std::cout << "Enter your name: ";
+                std::getline(std::cin, this->name);
+                
+                // checks if user inputs name
+                if (this->name != " ")
+                {
+                    this->name = name;
+                } else {
+                    std::cout << "Empty Name!" << std::endl;
+                    goto inputName;
+                }
         }
-
+        
         bool tryAgain()
         {
             tryAgain:
@@ -186,24 +201,10 @@ int main()
 {
 
     srand(time(0));
-
-    string name;
-
-    // prompts player name
-    inputName:
-        std::cout << "Enter your name: ";
-        std::getline(std::cin, name);
-        
-        // checks if user inputs name
-        if (name != " ")
-        {
-            // initialize game object
-            NumberGuessingGame game = NumberGuessingGame(name);
-            game.play();
-        } else {
-            std::cout << "Empty Name!" << std::endl;
-            goto inputName;
-        }
+   
+    // initialize game object
+    NumberGuessingGame game = NumberGuessingGame();
+    game.play();
 
     return 0;
 }
