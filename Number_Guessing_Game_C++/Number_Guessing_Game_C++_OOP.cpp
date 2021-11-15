@@ -1,7 +1,7 @@
 /***************************
   Number Guessing Game OOP
   November 14, 2021
-  @author Rokhai
+  @Rokhai
 ****************************/
 
 #include <iostream>

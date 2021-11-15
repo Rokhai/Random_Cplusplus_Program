@@ -2,7 +2,7 @@
 =====================================
     Number Guessing Game
     October 30, 2021
-    @author Rokhai
+    @Rokhai
 =====================================
 */ 
 
