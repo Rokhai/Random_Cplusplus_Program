@@ -3,6 +3,7 @@ A collection of Random C++ Codes
 
 * Number Guessing Game
 * Number Sorter (Ascending/Descending)
+* Name or String List Manipulation
 
 ***
 > Codes are free, which can be use as reference.
