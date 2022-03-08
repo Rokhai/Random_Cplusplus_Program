@@ -2,7 +2,7 @@
     Simple Phonebook
 
     Showcasing (CRUD) i guess, using array as container
-    with basic UI/UX feels
+    
 
     February 05, 2022
 
