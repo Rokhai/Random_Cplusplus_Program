@@ -1,12 +1,12 @@
-# Random_C++_Codes
+# Random_C++_Programs
 A collection of Random C++ Codes
 
 * Number Guessing Game
 * Number Sorter (Ascending/Descending)
 * Name or String List Manipulation
-* Tic-Tac-Toe C++ (OOP version is for Windows Only)
-* Simple Phonebook System (Windows Only)
 * Reading and Writing Score in Text File 
+* Simple Phonebook System (Windows Only)
+* Tic-Tac-Toe C++ (OOP version is for Windows Only)
 
 ***
 > Codes are free, which can be use as reference.
