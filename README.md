@@ -7,6 +7,7 @@ A collection of Random C++ Codes
 * Reading and Writing Score in Text File 
 * Simple Phonebook System (Windows Only)
 * Tic-Tac-Toe C++ (OOP version is for Windows Only)
+* Tricard_Janken
 
 ***
 > Codes are free, which can be use as reference.
